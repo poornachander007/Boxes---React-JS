@@ -1,0 +1,36 @@
+/* Write your code here. */
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.page_div {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.boxes_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.small_box {
+  background-color: #fbbf24;
+  height: 50px;
+  width: 50px;
+}
+.medium_box {
+  background-color: #38bdf8;
+  height: 100px;
+  width: 100px;
+}
+.large_box {
+  background-color: #ec4899;
+  height: 150px;
+  width: 150px;
+}
+.heading {
+  text-align: center;
+}
